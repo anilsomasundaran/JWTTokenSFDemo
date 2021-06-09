@@ -1,0 +1,26 @@
+{
+  "name": "jwttokensf",
+  "version": "1.0.0",
+  "description": "connect to salesforce through JWT token based authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "jwt",
+    "salesforce"
+  ],
+  "author": "Anil Somasundaran",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "base64url": "^3.0.1",
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
+  }
+}
