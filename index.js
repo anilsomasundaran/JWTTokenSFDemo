@@ -27,10 +27,10 @@ async function getToken() {
     //console.log(JSON.stringify(options));
     const token = await jwtLib.getJWTToken(options);
     const access_token = apiLib.requestToken(token);
-    const soql = "Select id name from Account".replaceAll(" ", "+");
-    console.log("Query => " + soql)
-    apiLib.query(access_token, soql);
-    //console.log(token);
+    //const soql = "Select id name from Account".replaceAll(" ", "+");
+    //console.log("Query => " + soql)
+    //apiLib.query(access_token, soql);
+    console.log(token);
 }
 
 getToken();
